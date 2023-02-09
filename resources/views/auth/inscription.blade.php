@@ -10,7 +10,7 @@
         }
     </style>
     <body>
-      
+
         <br>
         <a href="/">
             <button type="button" class="btn btn-dark" style="margin-left: 50px">Accueil</button>
@@ -50,9 +50,10 @@
                 </div>
                 <br>
                 <button type="submit" class="btn btn-dark">Inscription</button>
+                <input type="reset" class="btn btn-dark" value="Reset">
              @csrf
             </form>
-           
+
         <br> <br>
     </center>
     </body>

@@ -18,7 +18,7 @@
         <br>
         <a href="/">
             <button type="button" class="btn btn-dark" style="margin-left: 50px">Accueil</button>
-        </a>  
+        </a>
     <center>
         <img src="connexion.png" class="img-fluid" alt="connexion">
 
@@ -34,7 +34,11 @@
                 <input type="password" class="form-control" name="password" placeholder=" Mot de passe">
             </div>
             <br><br>
-            <input type="submit" class="btn btn-dark" value="Connexion">
+
+            <div class="d-grid gap-2 d-md-block">
+                <input type="submit" class="btn btn-dark" value="Connexion">
+                <input type="reset" class="btn btn-dark" value="Reset">
+            </div>
             @csrf
         </form>
     </center>

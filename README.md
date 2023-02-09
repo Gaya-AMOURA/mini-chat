@@ -8,6 +8,7 @@ Ce projet a été effectué en laravel.
 ### Pré-requis : 
 * Laravel version 8 ou plus.
 * PHP >= 8.
+* Accés admin : admin/admin .
 
 ### Etapes d'installation :
 
